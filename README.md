@@ -4,8 +4,6 @@ A fully local Retrieval-Augmented Generation (RAG) system that answers employee 
 
 Ask it a question like *"How many annual leave days do I get?"* and it retrieves the actual relevant policy chunk from a Google Drive folder of PDFs, generates a grounded answer with a local LLM, and replies with cited sources — all running on local infrastructure with zero per-query API cost.
 
-![Telegram demo](./Screenshot/Screenshot2.png)
-
 ## Why this exists
 
 Most "RAG demo" projects call OpenAI/Gemini for both embeddings and generation. This one deliberately runs **entirely on local models** (Ollama) against a **self-hosted automation platform** (n8n) and a **real Postgres vector store** (Supabase + pgvector) — closer to what a cost-conscious internal tool would actually look like, and a genuine test of debugging distributed systems rather than just calling an API.
@@ -98,6 +96,7 @@ The `workflows/` folder contains the actual logic (Code node scripts and SQL) us
 
 ## Demo Questions
 
+![Telegram demo](./Screenshot/Screenshot2.png)
 ![Telegram demo](./Screenshot/Screenshot3.png)
 ![Telegram demo](./Screenshot/Screenshot4.png)
 ![Telegram demo](./Screenshot/Screenshot5.png)
