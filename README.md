@@ -32,8 +32,8 @@ Telegram message → Validate/rate-limit → Embed question (Ollama)
 
 A separate branch handles feedback button presses: parses the callback, updates the logged query's feedback in Postgres, and acknowledges the Telegram callback.
 
-![Ingestion workflow](./screenshots/ingestion-workflow.png)
-![Query workflow](./screenshots/query-workflow.png)
+![Ingestion workflow](./screenshots/IngestionWorkflow.png)
+![Query workflow](./screenshots/Query&AnswerWorkflow.png)
 
 ## Tech stack
 
