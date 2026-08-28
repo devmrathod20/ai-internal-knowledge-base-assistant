@@ -4,7 +4,7 @@ A fully local Retrieval-Augmented Generation (RAG) system that answers employee 
 
 Ask it a question like *"How many annual leave days do I get?"* and it retrieves the actual relevant policy chunk from a Google Drive folder of PDFs, generates a grounded answer with a local LLM, and replies with cited sources — all running on local infrastructure with zero per-query API cost.
 
-![Telegram demo](./screenshots/telegram-demo.png)
+![Telegram demo](./Screenshot/Screenshot2.png)
 
 ## Why this exists
 
@@ -95,3 +95,13 @@ The `workflows/` folder contains the actual logic (Code node scripts and SQL) us
 - [ ] Swap the fixed-size chunking for a semantic/section-aware chunker
 - [ ] Feedback review dashboard
 - [ ] Multi-source ingestion (Notion, Confluence) alongside Google Drive
+
+## Demo Questions
+
+![Telegram demo](./Screenshot/Screenshot3.png)
+![Telegram demo](./Screenshot/Screenshot4.png)
+![Telegram demo](./Screenshot/Screenshot5.png)
+![Telegram demo](./Screenshot/Screenshot6.png)
+![Telegram demo](./Screenshot/Screenshot7.png)
+![Telegram demo](./Screenshot/Screenshot8.png)
+![Telegram demo](./Screenshot/Screenshot1.png)
